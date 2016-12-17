@@ -1,0 +1,219 @@
+/*MENU*/
+a:hover:nth-of-type(1) div {
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-animation: pushTop .5s ease both;
+    -moz-animation: pushTop .5s ease both;
+    animation: pushTop .5s ease both;
+}
+
+a:hover:nth-of-type(2) div {
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    
+    -webkit-animation: pushRight .5s ease both;
+    -moz-animation: pushRight .5s ease both;
+    animation: pushRight .5s ease both;
+}
+
+a:hover:nth-of-type(3) div {
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    
+    -webkit-animation: pushBottom .5s ease both;
+    -moz-animation: pushBottom .5s ease both;
+    animation: pushBottom .5s ease both;
+}
+
+a:hover:nth-of-type(4) div {
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    
+    -webkit-animation: pushLeft .5s ease both;
+    -moz-animation: pushLeft .5s ease both;
+    animation: pushLeft .5s ease both;
+}
+
+/*SLIDE*/
+.slideleft {
+    -webkit-animation: slideleft .6s;
+    animation: slideleft .6s;
+}
+
+.slidebottom {
+    -webkit-animation: slidebottom .6s;
+    animation: slidebottom .6s;
+}
+
+.slideright {
+    -webkit-animation: slideright .6s;
+    animation: slideright .6s;
+}
+
+.slidetop {
+    -webkit-animation: slidetop .6s;
+    animation: slidetop .6s;
+}
+
+/*FADE*/
+.fadeleft {
+    -webkit-animation: fade .6s;
+    animation: fade .6s;
+}
+
+.faderight {
+    -webkit-animation: fade .6s;
+    animation: fade .6s;
+}
+
+.fadebottom {
+    -webkit-animation: fade .6s;
+    animation: fade .6s;
+}
+
+.fadetop {
+    -webkit-animation: fade .6s;
+    animation: fade .6s;
+}
+
+/*FLIP*/
+.flipleft {
+    -webkit-animation: flipleft .6s;
+    animation: flipleft .6s;
+}
+
+.flipright {
+    -webkit-animation: flipright .6s;
+    animation: flipright .6s;
+}
+
+.flipbottom {
+    -webkit-animation: flipbottom .6s;
+    animation: flipbottom .6s;
+}
+
+.fliptop {
+    -webkit-animation: fliptop .6s;
+    animation: fliptop .6s;
+}
+
+/*STAMP*/
+.stampleft {
+    -webkit-animation: stampleft .6s;
+    animation: stampleft .6s;
+}
+
+.stampright {
+    -webkit-animation: stampright .6s;
+    animation: stampright .6s;
+}
+
+.stampbottom {
+    -webkit-animation: stampbottom .6s;
+    animation: stampbottom .6s;
+}
+
+.stamptop {
+    -webkit-animation: stamptop .6s;
+    animation: stamptop .6s;
+}
+
+/*TWIST*/
+.twistleft {
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+
+    -webkit-animation: twistleft .6s;
+    animation: twistleft .6s;
+}
+
+.twistright {
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    
+    -webkit-animation: twistright .6s;
+    animation: twistright .6s;
+}
+
+.twistbottom {
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 0% 50%;
+    
+    -webkit-animation: twistbottom .6s;
+    animation: twistbottom .6s;
+}
+
+.twisttop {
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 50%;
+    
+    -webkit-animation: twisttop .6s;
+    animation: twisttop .6s;
+}
+
+/*BORN*/
+.bornleft {
+    -webkit-animation: bornleft .6s;
+    animation: bornleft .6s;
+}
+
+.bornright {
+    -webkit-animation: bornright .6s;
+    animation: bornright .6s;
+}
+
+.bornbottom {
+    -webkit-animation: bornbottom .6s;
+    animation: bornbottom .6s;
+}
+
+.borntop {
+    -webkit-animation: borntop .6s;
+    animation: borntop .6s;
+}
+
+/*TURN*/
+.turnleft {
+    -webkit-animation: turnleft .6s;
+    animation: turnleft .6s;
+}
+
+.turnright {
+    -webkit-animation: turnright .6s;
+    animation: turnright .6s;
+}
+
+.turnbottom {
+    -webkit-animation: turnbottom .6s;
+    animation: turnbottom .6s;
+}
+
+.turntop {
+    -webkit-animation: turntop .6s;
+    animation: turntop .6s;
+}
+
+/*FLY*/
+.flyleft {
+    -webkit-animation: flyleft .6s;
+    animation: flyleft .6s;
+}
+
+.flyright {
+    -webkit-animation: flyright .6s;
+    animation: flyright .6s;
+}
+
+.flybottom {
+    -webkit-animation: flybottom .6s;
+    animation: flybottom .6s;
+}
+
+.flytop {
+    -webkit-animation: flytop .6s;
+    animation: flytop .6s;
+}

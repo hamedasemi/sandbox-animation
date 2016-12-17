@@ -1,0 +1,29 @@
+/*BODY*/
+body {
+    -webkit-perspective: 1200;
+    perspective: 1200;   
+    
+}
+
+/*NAVIGATION*/
+nav {
+    -webkit-perspective: 600;
+    perspective: 600;
+}
+
+nav div {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/*MAIN*/
+main {
+    -webkit-perspective: 800;
+    perspective: 800;
+}
